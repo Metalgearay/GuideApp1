@@ -222,7 +222,6 @@ public class map_screen extends ActionBarActivity implements View.OnClickListene
 
     }
    public void onClick(View v){
-       ;
        switch (v.getId()) {
            case R.id.button_noco:
                startActivity(new Intent(map_screen.this,noco.class));
