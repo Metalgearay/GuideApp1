@@ -1,0 +1,341 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="horizontal"
+    android:background="@drawable/mape"
+
+    >
+
+
+
+        <Button
+            android:id="@+id/button_noco"
+            android:text="1"
+            android:minHeight="70dp"
+            android:minWidth="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="sendMessage"
+            android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/button_pupin"
+        android:text="2"
+        android:minHeight="0dp"
+        android:minWidth="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendMessage"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/button_gym"
+        android:text="3"
+        android:minHeight="60dp"
+        android:minWidth="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendMessage"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/button_schapiro"
+        android:text="4"
+        android:minHeight="20dp"
+        android:minWidth="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendMessage"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/button_mudd"
+        android:text="5"
+        android:minHeight="0dp"
+        android:minWidth="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendMessage"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/button_fairchild"
+        android:text="6"
+        android:minHeight="50dp"
+        android:minWidth="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendMessage"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/button_cs"
+        android:text="7"
+        android:minHeight="70dp"
+        android:minWidth="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendMessage"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/button_schermerhorn"
+        android:text="8"
+        android:minHeight="0dp"
+        android:minWidth="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendMessage"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/button_uris"
+        android:text="9"
+        android:minHeight="70dp"
+        android:minWidth="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendMessage"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/button_havemeyer"
+        android:text="10"
+        android:minHeight="0dp"
+        android:minWidth="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendMessage"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/button_chandler"
+        android:text="11"
+        android:minHeight="40dp"
+        android:minWidth="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendMessage"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/button_math"
+        android:text="12"
+        android:minHeight="55dp"
+        android:minWidth="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendMessage"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/button_avery"
+        android:text="13"
+        android:minHeight="55dp"
+        android:minWidth="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendMessage"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/button_fayer"
+        android:text="14"
+        android:minHeight="55dp"
+        android:minWidth="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendMessage"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/button_stpaul"
+        android:text="15"
+        android:minHeight="0dp"
+        android:minWidth="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendMessage"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/button_low"
+        android:text="16"
+        android:minHeight="70dp"
+        android:minWidth="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendMessage"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/button_earl"
+        android:text="17"
+        android:minHeight="0dp"
+        android:minWidth="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendMessage"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/button_lewi"
+        android:text="18"
+        android:minHeight="50dp"
+        android:minWidth="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendMessage"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/button_buell"
+        android:text="19"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendMessage"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/button_philo"
+        android:text="20"
+        android:minHeight="50dp"
+        android:minWidth="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendMessage"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/button_kent"
+        android:text="21"
+        android:minHeight="0dp"
+        android:minWidth="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendMessage"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/button_dodge"
+        android:text="22"
+        android:minHeight="0dp"
+        android:minWidth="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendMessage"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/button_journal"
+        android:text="23"
+        android:minHeight="0dp"
+        android:minWidth="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendMessage"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/button_hamilton"
+        android:text="24"
+        android:minHeight="0dp"
+        android:minWidth="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendMessage"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/button_hartley"
+        android:text="25"
+        android:minHeight="40dp"
+        android:minWidth="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendMessage"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/button_furnald"
+        android:text="26"
+        android:minHeight="40dp"
+        android:minWidth="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendMessage"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/button_lerner"
+        android:text="27"
+        android:minHeight="30dp"
+        android:minWidth="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendMessage"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/button_carmen"
+        android:text="28"
+        android:minHeight="0dp"
+        android:minWidth="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendMessage"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/button_butler"
+        android:text="29"
+        android:minHeight="60dp"
+        android:minWidth="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendMessage"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/button_wallach"
+        android:text="30"
+        android:minHeight="40dp"
+        android:minWidth="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendMessage"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/button_johnjay"
+        android:text="31"
+        android:minHeight="0dp"
+        android:minWidth="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendMessage"
+        android:visibility="visible"/>
+
+    <!--
+    android:text="Soul"
+    android:background="@android:color/transparent"
+    android:text="@string/button_send"
+android:clickable="true"
+android:onClick="imageClick"
+
+<ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:src="@drawable/map" />
+
+     android:background="@drawable/mapc"
+android:background="@drawable/mapc"
+
+-->
+</RelativeLayout>
