@@ -1,12 +1,55 @@
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.example.brett.guideapp.noco">
+    tools:context="com.example.brett.guideapp.noco"
+    >
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/noco"
+        android:gravity="start"
+        android:id="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:text="North West Building"
+        android:textSize="20sp"
+        android:typeface="serif"
+        android:textColor="#ff000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:typeface="serif"
+        android:textColor="#ff000000"
+        android:text="Hours of Operation of Library(Science and Engineering:         Mondays	Tuesdays	Wednesdays	Thursdays	Fridays	Saturdays	Sundays         	9am-11pm	9am-11pm	9am-11pm	9am-11pm	9am-9pm	10am-7pm	Noon-10pm                       "
+        android:id="@+id/textView3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:typeface="serif"
+        android:textColor="#ff000000"
+        android:text="The Northwest Corner Building (known previously as the Interdisciplinary Science Building, and Northwest Science Building before that, and casually as NoCo) was destined by Columbia to fill the last remaining plot on the Morningside Heights campus. It was built over the Levien Gym, between Pupin Hall and the Havemeyer extension (Chandler Hall), as well as the last undeveloped portion of the Grove just north of Levien and west of Pupin."
+        android:id="@+id/textView2"
+        android:gravity="center"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>
