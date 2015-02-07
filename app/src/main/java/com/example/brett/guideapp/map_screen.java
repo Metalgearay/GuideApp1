@@ -12,11 +12,11 @@ import android.widget.Button;
 public class map_screen extends ActionBarActivity implements View.OnClickListener {
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.map_screen);
+
 
         //-----------------------------------------------------------
         // BUTTONS
@@ -25,6 +25,7 @@ public class map_screen extends ActionBarActivity implements View.OnClickListene
         myButton1.setX(120);
         myButton1.setY(30);
         myButton1.setOnClickListener(this);
+
 
         Button myButton2 = (Button) findViewById(R.id.button_pupin);
         myButton2.setX(220);
@@ -232,18 +233,11 @@ public class map_screen extends ActionBarActivity implements View.OnClickListene
            case R.id.button_hamilton:
                startActivity(new Intent(map_screen.this,ham.class));
                break;
-           case R.id.button_dodge:
-               startActivity(new Intent(map_screen.this,gym.class));
-               break;
-           case R.id.button_johnjay:
-               startActivity(new Intent(map_screen.this,johnjay.class));
-               break;
-           case R.id.button_havemeyer:
-               startActivity(new Intent(map_screen.this,havemayer.class));
-               break;
        }
 
    }
+
+
 
 
 
