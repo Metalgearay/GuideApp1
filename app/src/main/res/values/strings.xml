@@ -7,5 +7,6 @@
     <string name="logo">CELP</string>
     <string name="title_activity_splash__screen">Splash_Screen</string>
     <string name="title_activity_map_screen">Map_Screen</string>
+    <string name="title_activity_noco">noco</string>
 
 </resources>
