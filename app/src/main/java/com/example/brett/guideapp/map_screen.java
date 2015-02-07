@@ -232,6 +232,15 @@ public class map_screen extends ActionBarActivity implements View.OnClickListene
            case R.id.button_hamilton:
                startActivity(new Intent(map_screen.this,ham.class));
                break;
+           case R.id.button_dodge:
+               startActivity(new Intent(map_screen.this,gym.class));
+               break;
+           case R.id.button_johnjay:
+               startActivity(new Intent(map_screen.this,johnjay.class));
+               break;
+           case R.id.button_havemeyer:
+               startActivity(new Intent(map_screen.this,havemayer.class));
+               break;
        }
 
    }
