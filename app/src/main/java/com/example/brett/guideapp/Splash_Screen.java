@@ -7,9 +7,6 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import java.util.Timer;
-import java.util.TimerTask;
-
 
 public class Splash_Screen extends ActionBarActivity {
     final Handler hand = new Handler();
@@ -23,7 +20,7 @@ public class Splash_Screen extends ActionBarActivity {
         hand.postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(Splash_Screen.this,Main_Screen.class));
+                startActivity(new Intent(Splash_Screen.this,map_screen.class));
             }
 
         }, 10000);

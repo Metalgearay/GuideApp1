@@ -19,8 +19,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Main_Screen"
-            android:label="@string/title_activity_main__screen"  >
+            android:name=".map_screen"
+            android:label="@string/title_activity_map_screen"  >
         </activity>
     </application>
 
