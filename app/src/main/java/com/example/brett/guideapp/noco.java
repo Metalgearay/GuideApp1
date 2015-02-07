@@ -4,6 +4,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 
 public class noco extends ActionBarActivity {
@@ -12,6 +13,11 @@ public class noco extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_noco);
+        TextView v =(TextView) findViewById(R.id.textView);
+        DensityInterface.Location loc = map_screen.density.getInfo("Science and Engineering Library");
+        v.append("\n"+loc.name+" \n");
+        v.append(loc.time+" \n");
+        v.append("Number of People in the Library: "+loc.occupants+"\n");
     }
 
 

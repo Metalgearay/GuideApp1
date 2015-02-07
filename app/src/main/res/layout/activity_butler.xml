@@ -45,7 +45,7 @@
         android:textColor="#ff000000"
         android:text="Butler Library houses two million volumes comprising the University's collections in the humanities, with particular strengths in history (including government documents and social science materials published before 1974), literature, philosophy and religion, as well as one of the country's most extensive collections of materials pertinent to the study of Greco-Roman antiquity
         "
-        android:layout_below="@+id/textView"
+        android:layout_below="@+id/textViewR"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:gravity="center"

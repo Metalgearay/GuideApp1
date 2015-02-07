@@ -11,7 +11,7 @@ import android.widget.Button;
 
 public class map_screen extends ActionBarActivity implements View.OnClickListener {
 
-
+    static DensityInterface density = new DensityInterface();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

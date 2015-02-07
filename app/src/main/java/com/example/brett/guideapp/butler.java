@@ -4,6 +4,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 
 public class butler extends ActionBarActivity {
@@ -12,6 +13,11 @@ public class butler extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_butler);
+        TextView v =(TextView) findViewById(R.id.textViewR);
+        DensityInterface.Location loc = map_screen.density.getInfo("Butler Library 2");
+        v.append("\n"+loc.name+" \n");
+        v.append(loc.time+" \n");
+        v.append("Number of People in the 2nd floor: "+loc.occupants+"\n");
     }
 
 
