@@ -25,6 +25,14 @@
             android:name=".noco"
             android:label="@string/title_activity_noco" >
         </activity>
+        <activity
+            android:name=".butler"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name=".ham"
+            android:label="@string/title_activity_ham" >
+        </activity>
     </application>
 
 </manifest>
