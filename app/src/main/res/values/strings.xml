@@ -8,5 +8,7 @@
     <string name="title_activity_splash__screen">Splash_Screen</string>
     <string name="title_activity_map_screen">Map_Screen</string>
     <string name="title_activity_noco">noco</string>
+    <string name="title_activity_butler">butler</string>
+    <string name="title_activity_ham">ham</string>
 
 </resources>
